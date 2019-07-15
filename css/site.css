@@ -1,4 +1,10 @@
 body {
-    background: gold;
+    background: aquamarine;
     color: black;
+}
+
+
+h1  {
+    margin: 0;
+    padding: 0;
 }
