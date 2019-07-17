@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&display=swap');
+@import "variables.css";
 
 *, *:before, *:after {
     margin: 0;
@@ -11,16 +12,22 @@ html {
     font: 14px/1.5 "Fira Sans", Georgia, serif;
 }
 
-@media (min-width: 600px) {
-    html { font-size: 16px; }
+@media (min-width: var(--mq-size-lv1, 600px)) {
+    html {
+        font-size: 16px;
+    }
 }
 
-@media (min-width: 1024px) {
-    html { font-size: 18px; }
+@media (min-width: var(--mq-size-lv2, 1024px)) {
+    html {
+        font-size: 18px;
+    }
 }
 
-@media (min-width: 1600px) {
-    html { font-size: 20px; }
+@media (min-width: var(--mq-size-lv3, 1600px)) {
+    html {
+        font-size: 20px;
+    }
 }
 
 body, table, form, select, option, input, textarea {
@@ -35,12 +42,29 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Merriweather, serif;
 }
 
-h1 { font-size: 2.6em; }
-h2 { font-size: 2.0em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.4em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1em; }
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
 
 
 p, ul, ol {
