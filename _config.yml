@@ -17,7 +17,7 @@ title: CSS-Advanced
 email: ldjantov@example.com
 description: Say hello to ldj5!
 destination: docs
-baseurl: "/CSS-Advanced" # the subpath of your site, e.g. /blog
+baseurl: "/CSS-Advanced/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

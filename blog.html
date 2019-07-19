@@ -1,10 +1,21 @@
 ---
 layout: main
 title: Blog
-permalink: /blog/
+permalink: blog/
 ---
 
-# This the BLOG page
-<p>You add your BLOG POSTS here
-</p>
+<h2>You add your BLOG POSTS here
+</h2>
+
+<section class="posts">
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+
 
