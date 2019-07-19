@@ -6,6 +6,9 @@
     --font-size-body-huge: 20px;
     --color-body: #f33471;
 
+    --layout-main-width: 60em;
+
+
     --mq-size-lv1: 600px;
     --mq-size-lv2: 1024px;
     --mq-size-lv3: 1600px;
