@@ -1,6 +1,6 @@
-@import "typography.css";
-@import "layout.css";
-@import "variables.css";
+@import url("variables.css");
+@import url("typography.css");
+@import url("layout.css");
 
 body {
     background: gold;
