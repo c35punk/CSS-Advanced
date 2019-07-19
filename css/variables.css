@@ -9,4 +9,17 @@
     --mq-size-lv1: 600px;
     --mq-size-lv2: 1024px;
     --mq-size-lv3: 1600px;
+
+    --layout-main-width: 60em;
+
+    --color-body-default: #000;
+    --color-body-text: #000;
+    --color-body-bgrd: #aee9af;
+    --color-link-default: #A00;
+
+
+    --color-border-default: #999;
+    --spacing-layout-elements: 2em
+
+
 }

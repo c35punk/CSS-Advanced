@@ -1,36 +1,19 @@
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
+.site {
+    max-width: var(--layout-main-width);
+    margin: 0 auto;
+    padding: 2em;
 }
 
-html {
-    box-sizing: border-box;
-    font-family: Helvetica, Arial sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+@media (min-width: 1024px) {
+    .site-header {
+        display: flex;
+    }
+    .site-header nav {
+        margin-left: auto;
+    }
+
+
+
 }
 
-body {
-    font: inherit;
-    width: 80%;
-    max-width: 60rem;
-    margin: 2rem auto;
-    background: rgb(238, 238, 238);
-}
 
-.page {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header {
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #000;
-    flex: 1 1 100%;
-}
-
-main {
-    display: flex;
-    flex: 1 1 70%;
-    flex-wrap: wrap;
-}

@@ -1,13 +1,19 @@
 .site {
     max-width: var(--layout-main-width);
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 2em;
 }
 
-.site-header {
-    display: flex;
+@media (min-width: 1024px) {
+    .site-header {
+        display: flex;
+    }
+    .site-header nav {
+        margin-left: auto;
+    }
+
+
+
 }
 
-.site-header nav {
-    margin-left: auto;
-}
+
