@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{{site.title}}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
+    <script src="{{ site.baseurl }}/scripts/site.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}fontawesome/css/all.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
 </head>
 <body class="
@@ -28,22 +29,23 @@
         </p>
         {% endif %}
         {% include navigation.html location='header'%}
+
     </header>
     <main class="site-main">
-        {% if page.title %}
-        <h1>{{page.title}}</h1>
-        {% endif %}
-        {{content}}
+
+
+            {% if page.title %}
+            <h1>{{page.title}}</h1>
+            {% endif %}
+            {{content}}
+
+            {% if page.sidebar == 1 %}
+            {% include sidebar.html %}
+            {% endif %}
     </main>
-    {% if page.sidebar == 1 %}
-    {% include sidebar.html %}
-    {% endif %}
-
-
     <footer class="site-footer">
         <p>All rights reserved &copy; {{site.title}}</p>
         {% include navigation.html location='footer'%}
-
     </footer>
 </div>
 </body>
