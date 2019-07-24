@@ -21,6 +21,7 @@
 /*}*/
 
 .box {
+    position: absolute;
     width: 20em;
     height: 15em;
     border: 2px solid #000;
@@ -53,7 +54,6 @@
 
 @keyframes around {
     0% {
-
         top: 0;
         left: 0;
     }
