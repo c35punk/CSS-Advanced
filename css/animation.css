@@ -1,9 +1,4 @@
-.page-animations .site-main h1,
-.page-animations .site-header,
-.site-footer {
 
-    display: none;
-}
 
 .page-animations {
     min-height: 100vh;
@@ -21,7 +16,7 @@
 /*}*/
 
 .box {
-    position: absolute;
+    position: center;
     width: 20em;
     height: 15em;
     border: 2px solid #000;
