@@ -1,0 +1,18 @@
+.site-header {
+    border-bottom: 1px solid var(--color-border-default, #999);
+    margin-bottom: var(--spacing-layout-elements);
+    padding-bottom: var(--spacing-layout-elements);
+}
+
+.site-title {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+
+}
+
+.site-title a {
+    display: block;
+    padding: 0.5em;
+}
+
